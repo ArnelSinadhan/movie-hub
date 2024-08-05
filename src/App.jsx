@@ -11,7 +11,7 @@ import MovieDetail from "./pages/MovieDetail";
 function App() {
   return (
     <UserProvider>
-      <Router>
+      <Router basename="/">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
