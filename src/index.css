@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.customNav {
+  background-color: black !important;
+}
+.navbar-brand {
+  font-weight: 700;
+  color: #f8b319 !important;
+}
+.navbar-brand span {
+  background-color: #f8b319;
+  padding: 5px;
+  color: black;
+  margin-right: 5px;
+}
+.nav-link {
+  color: white !important;
+  font-weight: 600;
+}
+
+/* Hero */
+.hero {
+  background-image: url(/avatar.png);
+  height: 100vh;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heroContainer2 {
+  background-color: #1d1d1d;
+}
+.heroRow {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watchNowBtn {
+  border: none !important;
+  background-color: #ae0000 !important;
+  margin-right: 20px;
+  height: 60px;
+}
+.watchNowBtn i {
+  color: white;
+  margin-left: 5px;
+  font-size: 24px;
+}
+.watchLaterBtn {
+  box-shadow: inset 0 0 0 2px #ae0000;
+  margin-right: 20px;
+  height: 60px;
+  background-color: transparent !important;
+  border: none !important;
+}
+.watchLaterBtn i {
+  color: white;
+  margin-left: 5px;
+  font-size: 24px;
+}
+.titleWrapper {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Login */
+.loginWrapper {
+  background-color: #1d1d1d;
+  height: 100vh;
+}
+.loginRow {
+  height: 100%;
+}
+.loginRow h2 {
+  color: #f8b319;
+}
+.loginForm {
+  color: #f8b319;
+}
+.loginForm input {
+  border-radius: 0 !important;
+  height: 50px;
+}
+.loginForm input:focus {
+  border: 2px solid #f8b319;
+  box-shadow: none;
+}
+.loginBtnBox button {
+  background-color: #ffffff !important;
+  border-radius: 0 !important;
+  color: black;
+  width: 100%;
+  font-weight: 600;
+  height: 50px;
+}
+.loginBtnBox button:hover {
+  color: #f8b319;
+}
+.loginRow p {
+  color: #525252;
+}
+.loginRow p a {
+  color: white;
+  text-decoration: none;
+}
+.loginRow p a:hover {
+  color: #f8b319;
+  cursor: pointer;
+}
+
+/* Admin View */
+.adminView {
+  background-color: #1d1d1d;
+}
+.adminView h2 {
+  color: #f8b319;
+}
+
+.adminUpdateBtn {
+  background-color: #f8b319 !important;
+  width: 100%;
+  margin: 10px 0;
+  color: #1d1d1d !important;
+  font-weight: 500 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.adminUpdateBtn:hover {
+  background-color: transparent !important;
+  box-shadow: inset 0 0 0 2px #f8b319;
+  color: #ffffff !important;
+}
+
+.adminDeleteBtn {
+  background-color: #ae0000 !important;
+  width: 100%;
+  margin: 10px 0;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+.adminDeleteBtn:hover {
+  background-color: transparent !important;
+  box-shadow: inset 0 0 0 2px #ae0000;
+  color: #ae0000 !important;
+}
+.adminAddMovieBtn {
+  background-color: #f8b319 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  height: 50px;
+  font-weight: 700 !important;
+  color: #1d1d1d !important;
+}
+.adminCards {
+  background-color: #585858 !important;
+  color: #ffffff !important;
+}
+.updateModal,
+.addMovieModal {
+  background-color: #525252;
+}
+.updateModal form input,
+.addMovieModal form input {
+  background-color: transparent !important;
+  margin-top: 40px;
+  border: #ffffff solid 2px !important;
+  border-radius: 0 !important;
+  color: #ffffff;
+}
+.updateModal form input:focus,
+.addMovieModal form input:focus {
+  box-shadow: none;
+  color: #f8b319;
+  border: #f8b319 2px solid !important;
+}
+.updateModal form textarea,
+.addMovieModal form textarea {
+  background-color: transparent !important;
+  margin-top: 40px;
+  border: none !important;
+  border-radius: 0 !important;
+  color: #ffffff;
+  border: #ffffff solid 2px !important;
+}
+.updateModal form textarea:focus,
+.addMovieModal form textarea:focus {
+  box-shadow: none;
+  color: #f8b319;
+  border: #f8b319 2px solid !important;
+}
+.updateModal form button,
+.addMovieModal form button {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 0 !important;
+  background-color: #f8b319;
+  border: none !important;
+}
+.updateModal form button:hover,
+.addMovieModal form button:hover {
+  background-color: transparent;
+  font-weight: 700;
+  box-shadow: inset 0 0 0 2px #f8b319;
+}
+.addMovieModal form input::placeholder {
+  color: #ffffff;
+}
+.addMovieModal form textarea::placeholder {
+  color: #ffffff;
+}
+.modal-title {
+  color: #f8b319 !important;
+}
+.modal-header {
+  border-bottom: #f8b319 2px solid !important;
+}
+.modal-header button {
+  background-color: #f8b319 !important;
+}
+/* Get Movies */
+.getMoviesCard {
+  background-color: #585858 !important;
+  color: #ffffff !important;
+}
+.getMoviesTitle {
+  color: #f8b319;
+}
+
+.viewDetailsBtn {
+  background-color: #f8b319 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  font-weight: 700 !important;
+  color: #1d1d1d !important;
+  width: 100%;
+}
+
+/* Movie View */
+.movieView {
+  background-color: #1d1d1d;
+}
+
+/* Movie Details */
+.movieDetails {
+  color: #f8b319;
+}
+.movieDetailsContainer {
+  background-color: #1d1d1d;
+  height: 100vh;
+}
+.commentHead {
+  color: #f8b319;
+}
+.movieDetailsCard {
+  background-color: #585858 !important;
+  color: #ffffff !important;
+  text-align: center;
+}
+.movieDetailSubmit {
+  background-color: #f8b319 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  font-weight: 700 !important;
+  color: #1d1d1d !important;
+  width: 100%;
+}
